@@ -1,0 +1,28 @@
+@import 'src/view/styles/abstract';
+
+$authorization-page-bg: rgb(255 255 255);
+
+.authorization-page {
+    flex-grow: 1;
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.authorization-page__title {
+    font-size: 3rem;
+
+    @apply text-foreground;
+}
+
+.authorization-page__content {
+    position: relative;
+    padding-top: 4rem;
+}
+
+.authorization__theme-switcher {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

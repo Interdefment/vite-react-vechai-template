@@ -1,0 +1,23 @@
+@import 'src/view/styles/abstract';
+
+.main-layout {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.main-layout__content {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 2rem;
+}
+
+.main-layout__header {
+    @apply bg-primary-400;
+    @apply text-foreground;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
